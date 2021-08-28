@@ -1,0 +1,8 @@
+.caixa h1 {
+  font-size: 100%;
+}
+
+.caixa ul {
+  margin: 20px;
+  justify-content: space-around;
+}

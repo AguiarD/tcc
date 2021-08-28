@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="../1-css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../1-css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="sortcut icon" href="../1-img/logo.ico" type="image/x-icon" />
+		<link rel="sortcut icon" href="../1-img/logo_ico.ico" type="image/png" />
+        <title>Pelada Secreta - Contatos</title>
+    </head>
+
+    <body>
+        <b id="topo"></b>
+        <header>
+            <div class="caixa">
+                <h1><img id="logo" src="../1-img/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../2-galeria/galeria.html">Galeria</a></li>
+                        <li><a class="atual" href="contatos.html">Contatos</a></li>
+                        <li><a href="../4-login/login.php">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <div class="formContato" >
+                    <label for="nomeSobrenome">Nome e Sobrenome</label>
+                    <input class="inputPadrao" type="text" id="nomeSobrenome" required>
+
+                    <label for="email">Email</label>
+                    <input class="inputPadrao" type="email" id="email" required placeholder="email@dominio.com">
+
+                    <label form="telefone">Telefone</label>
+                    <input class="inputPadrao" type="tel" id="telefone" required placeholder="(xx) xxxx-xxxx">
+
+                    <label form="mensagem">Mensagem</label>
+                    <textarea class="inputPadrao" cols="50" rows="10" id="mensagem"></textarea>
+                </div>
+
+                <input class="btnEnviar" type="submit" value="  Enviar  ">
+                
+            </form>
+            <div class="linkInterno">
+                <a class="voltar" href="#topo">Início</a>
+            </div>
+        </main>
+
+        <footer>
+            <img id="logoFooter" src="../1-img/logoBranco.png">
+            <p class="copyright">by Douglas Aguiar - 2020</p>
+        </footer>
+        <script type="text/javascript" src="../1-js/app.js"></script>
+    </body>
+
+</html>
